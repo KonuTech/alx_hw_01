@@ -19,21 +19,26 @@ git status
 git add .
 
 
-python -m unittest tests/test_circle.py
-python -m unittest tests/test_square.py
+python -m unittest ./tests/test_shapes.py
+python -m unittest ./tests/test_figure.py
 
 
-black ./scripts/circle.py
-isort ./scripts/circle.py
-mypy ./scripts/circle.py
-flake8 ./scripts/circle.py
+black ./scripts/figure.py
+isort ./scripts/figure.py
+mypy ./scripts/figure.py
+flake8 ./scripts/figure.py
 
-black ./scripts/square.py
-isort ./scripts/square.py
-mypy ./scripts/square.py
-flake8 ./scripts/square.py
+black ./scripts/figure.py
+isort ./scripts/figure.py
+mypy ./scripts/figure.py
+flake8 ./scripts/figure.py
 
-black ./scripts/shapes.py
-isort ./scripts/shapes.py
-mypy ./scripts/shapes.py
-flake8 ./scripts/shapes.py
+black ./tests/test_figure.py
+isort ./tests/test_figure.py
+mypy ./tests/test_figure.py
+flake8 ./tests/test_figure.py
+
+black ./tests/test_shapes.py
+isort ./tests/test_shapes.py
+mypy ./tests/test_shapes.py
+flake8 ./tests/test_shapes.py
