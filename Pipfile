@@ -8,6 +8,9 @@ jupyter = "*"
 notebook = "*"
 flake8 = "*"
 mypy = "*"
+pip = "*"
+install = "*"
+pytest = "*"
 
 [dev-packages]
 
