@@ -1,0 +1,19 @@
+python -m venv venv
+source venv/Scripts/activate
+pipenv shell
+pipenv install --dev seaborn
+# pipenv lock
+
+ls -lah
+# pip install notebook
+# jupyter notebook
+
+git remote add upstream https://github.com/DataTalksClub/machine-learning-zoomcamp 
+git remote -v
+git fetch upstream
+git checkout master
+git merge upstream/master
+git commit -m "updated from upstream repo"
+git push origin master
+git status
+git add .
