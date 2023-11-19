@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 jupyter = "*"
 notebook = "*"
+flake8 = "*"
+mypy = "*"
 
 [dev-packages]
 
